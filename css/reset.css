@@ -1,0 +1,19 @@
+/* limpando as configurações do navegador:
+https://meyerweb.com/eric/tools/css/reset/ */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  border: none;
+  font-family: 'Simpsonfont', cursive ;
+  font-size:x-large;
+}
+
+/* Carregar fontes personalizadas com CSS */
+@font-face {
+  font-family: 'Simpsonfont';
+  src: url('/font/Homer_Simpson_Revised.ttf')format(Opentype);
+}
